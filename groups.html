@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Together Groups | Passion Creek Church</title>
+  <meta name="description" content="Find a Together Group at Passion Creek Church. We meet weekly in homes across Queen Creek, Gilbert, & San Tan Valley to share meals, pray, & follow Jesus together.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header scrolled">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link">
+        <svg width="36" height="36" viewBox="0 0 100 100" fill="none">
+          <circle cx="50" cy="50" r="48" fill="#a71e30"/>
+          <path d="M50 20V80M30 40H70" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-fallback-text">PASSION CREEK<span>.</span></span>
+      </a>
+
+      <div class="header-right">
+        <a href="#groups-list" class="btn btn-primary btn-sm header-cta">Find a Group</a>
+        <button class="menu-trigger-btn" aria-label="Open Navigation Menu">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <span>Menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section style="background: linear-gradient(135deg, #111111, #1e1e1e); color: #ffffff; padding: 140px 0 70px; text-align: center;">
+    <div class="container container-narrow">
+      <span class="section-label light">Community in Homes</span>
+      <h1 class="text-white" style="margin-bottom: 20px;">Together Groups</h1>
+      <p style="color: rgba(255,255,255,0.8); font-size: 1.25rem;">
+        Follow Jesus in authentic community across Queen Creek, Gilbert, and San Tan Valley.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why Groups Section -->
+  <section style="padding: 90px 0; background: #ffffff;">
+    <div class="container container-narrow text-center">
+      <span class="section-label">The Living Room Table</span>
+      <h2 style="margin-bottom: 20px;">Why We Meet in Living Rooms</h2>
+      <p style="font-size: 1.15rem; line-height: 1.7; color: var(--text-muted); margin-bottom: 40px;">
+        Sunday mornings are designed for celebration, teaching, and worship with the entire church family. But discipleship deepens around a dinner table. Together Groups are where we know and are known, confess burdens, eat together, and spur each other on toward Christlikeness.
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; text-align: left;">
+        <div style="background: var(--bg-light); padding: 24px; border-radius: var(--radius-md);">
+          <strong style="display: block; font-family: var(--font-heading); font-size: 1.1rem; color: var(--primary); margin-bottom: 6px;">Shared Dinner</strong>
+          <span style="color: var(--text-muted); font-size: 0.95rem;">Every group begins with food and unrushed conversation.</span>
+        </div>
+        <div style="background: var(--bg-light); padding: 24px; border-radius: var(--radius-md);">
+          <strong style="display: block; font-family: var(--font-heading); font-size: 1.1rem; color: var(--primary); margin-bottom: 6px;">Scripture & Practice</strong>
+          <span style="color: var(--text-muted); font-size: 0.95rem;">Discussing how Sunday’s message applies to our weekly work and family.</span>
+        </div>
+        <div style="background: var(--bg-light); padding: 24px; border-radius: var(--radius-md);">
+          <strong style="display: block; font-family: var(--font-heading); font-size: 1.1rem; color: var(--primary); margin-bottom: 6px;">Honest Prayer</strong>
+          <span style="color: var(--text-muted); font-size: 0.95rem;">Lifting up each other’s joys, struggles, healings, and neighbors.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Groups Directory / Schedule (#groups-list) -->
+  <section id="groups-list" style="padding: 90px 0; background: var(--bg-light);">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-label">Join a Table</span>
+        <h2>Current Together Groups</h2>
+        <p>Choose a neighborhood and night that works best for your schedule.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px;">
+        <!-- Group 1 -->
+        <div style="background: #ffffff; padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--border-light);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+            <span class="event-date-badge">Tuesday Evenings • 6:30 PM</span>
+            <span style="font-weight: 700; color: #16a34a; font-size: 0.85rem;">Open Spots</span>
+          </div>
+          <h3 style="font-size: 1.35rem; margin-bottom: 8px;">Queen Creek (Victoria)</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 16px;">
+            A mix of young couples, parents, and singles. Childcare shared cooperatively among families.
+          </p>
+          <button class="btn btn-primary btn-sm" data-open-modal="groupJoinModal">Join This Group</button>
+        </div>
+
+        <!-- Group 2 -->
+        <div style="background: #ffffff; padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--border-light);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+            <span class="event-date-badge">Wednesday Evenings • 6:30 PM</span>
+            <span style="font-weight: 700; color: #16a34a; font-size: 0.85rem;">Open Spots</span>
+          </div>
+          <h3 style="font-size: 1.35rem; margin-bottom: 8px;">San Tan Valley (San Tan Heights)</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 16px;">
+            Families with kids and teenagers. Warm dinner provided every week followed by Bible study.
+          </p>
+          <button class="btn btn-primary btn-sm" data-open-modal="groupJoinModal">Join This Group</button>
+        </div>
+
+        <!-- Group 3 -->
+        <div style="background: #ffffff; padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--border-light);">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+            <span class="event-date-badge">Thursday Evenings • 7:00 PM</span>
+            <span style="font-weight: 700; color: #16a34a; font-size: 0.85rem;">Open Spots</span>
+          </div>
+          <h3 style="font-size: 1.35rem; margin-bottom: 8px;">Gilbert / South Queen Creek</h3>
+          <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 16px;">
+            Focused on spiritual practices, fellowship, and intentional deep-dive discipleship.
+          </p>
+          <button class="btn btn-primary btn-sm" data-open-modal="groupJoinModal">Join This Group</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Modal -->
+  <div class="modal-backdrop" id="groupJoinModal">
+    <div class="modal-card">
+      <button class="modal-close-btn">✕</button>
+      <div class="section-header" style="margin-bottom: 20px;">
+        <span class="section-label">Connect</span>
+        <h3 style="font-size: 1.6rem; margin-bottom: 8px;">Join a Together Group</h3>
+        <p style="font-size: 0.95rem;">Fill out this quick form and our community pastor will introduce you to the group host.</p>
+      </div>
+
+      <form id="planVisitForm">
+        <div class="form-group">
+          <label class="form-label" for="gName">Your Name *</label>
+          <input type="text" id="gName" name="name" class="form-control" required placeholder="John Smith">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="gEmail">Email *</label>
+          <input type="email" id="gEmail" name="email" class="form-control" required placeholder="john@example.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="gDay">Preferred Night</label>
+          <select id="gDay" name="service" class="form-control">
+            <option value="Tuesday Group">Tuesday Evenings (Queen Creek)</option>
+            <option value="Wednesday Group">Wednesday Evenings (San Tan Valley)</option>
+            <option value="Thursday Group">Thursday Evenings (Gilbert / QC)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Connect Me With A Group</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p style="color: rgba(255,255,255,0.7); margin-bottom: 16px;">
+        Passion Creek Church • 20435 S Old Ellsworth Rd, Queen Creek, AZ 85142
+      </p>
+      <p style="color: rgba(255,255,255,0.4); font-size: 0.9rem;">
+        © 2026 Passion Creek Church. All rights reserved. | <a href="index.html" style="color: var(--primary);">Return to Home</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="slide-drawer" id="slideDrawer">
+    <div>
+      <div class="drawer-header">
+        <span class="logo-fallback-text">PASSION CREEK<span>.</span></span>
+        <button class="drawer-close-btn">Close ✕</button>
+      </div>
+      <nav class="drawer-nav-list">
+        <a href="index.html">Home</a>
+        <a href="sundays.html">Sundays</a>
+        <a href="teaching.html">Teaching & Sermons</a>
+        <a href="about.html">About & Team</a>
+        <a href="groups.html">Together Groups</a>
+        <a href="give.html">Give to the Mission</a>
+      </nav>
+    </div>
+  </aside>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
